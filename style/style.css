@@ -1,4 +1,121 @@
-body{
-    margin:0; 
+.wraper{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #2b2727;
+    
+}
+.left{
+    width: 450px;
+    background-color: #2b2727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.avatar{
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h1{
+    margin: 0;
+    font-size: 34px;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+h2{
+    margin: 0;
+}
+.special{
+    font-size: 24px;
+    color: white;
+    font-weight: 100;
+}
+ul{
+    list-style: none;
+    margin: 0;
     padding: 0;
+}
+.about{
+    width: 300px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.about li h2 a {
+    text-decoration: none;
+    color: white;
+}
+.h-about{
+    margin-bottom: 15px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.right{
+    width: 990px;
+    text-align: center;
+    color: white;
+    padding: 0 100px 0 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #2b2727;
+}
+.right-list li h2 a {
+    text-decoration: none;
+    color: white;
+}
+.h-right{
+    margin-bottom: 15px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+span{
+    color: rgb(153, 83, 218);
+}
+header{
+    background-color: #2b2727;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 0 20px;
+}
+.menu li a {
+    color: white;
+    
+}
+footer{
+    background-color: #2b2727;
+    color: white;
+    border-top: 1px solid #5f5b5b;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding-top: 15px;
+}
+.footer li a {
+    text-decoration: none;
+    color: white;
+}
+.footer li a:hover {
+  border-bottom: 1px solid white;
+    color: white;
+}
+.footer li a img{
+    width: 60px;
+    height: 60px;
 }

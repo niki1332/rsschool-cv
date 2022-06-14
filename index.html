@@ -4,58 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
-<div>
+<div class="wraper">
     <header>
-    
+    <ul class="menu">
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skills">Skills</a></li>
+    </ul>
     </header>
-    <main>
+    <main class="main">
       <section class="left">
-        <img src="img/ava.jpg" alt="avatar">
+        <img class="avatar" src="img/ava.jpg" alt="avatar">
         <h1>Nikita Koval</h1>
-        <h2>junior frontend devoloper</h2>
-        <ul>
-            <li>About Me</li>
+        <h2 class="special">junior frontend devoloper</h2>
+        <ul class="about">
+            <li><h2 class="h-about">About Me</h2></li>
             <li>I have communication skills. I am developing comprehensively.</li>
         </ul>
-        <ul>
-            <li>Contacts</li>
+        <ul class="about">
+            <li><h2 class="h-about"><a id="contacts">Contacts</a> </h2></li>
             <li>Location: Russia Vladimir</li>
             <li>Phone: 89960173325</li>
             <li>Email: nekit3198@mail.ru</li>
         </ul>
-        <ul>
-            <li>English</li>
+        <ul class="about">
+            <li><h2 class="h-about">English</h2></li>
             <li>A2</li>
         </ul>
       </section>
       <section class="right">
-        <ul>
-            <li>Experience</li>
+        <ul class="right-list">
+            <li><h2 class="h-right"><a id="Experience">Experience</a> </h2></li>
             <li>coming soon</li>
         </ul>
-        <ul>
-            <li>Education</li>
+        <ul class="right-list">
+            <li><h2 class="h-right"><a id="Education">Education</a> </h2></li>
             <li>University: Nizhny Novgorod State University of Architecture and Civil Engineering.</li>
         </ul>
-        <ul>
-            <li>Skills</li>
+        <ul class="right-list">
+            <li><h2 class="h-right"><a id="Skills">Skills</a> </h2></li>
             <li>Git</li>
             <li>Photoshop</li>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
-        <ul>
-            <li>Code Example</li>
-            <li>$a = 5; 
-                $b = 3; 
-                $c = $a + $b;</li>
+        <ul class="right-list">
+            <li><h2 class="h-right">Code Example</h2></li>
+            <li>
+                <pre>
+                    <code>
+<span>$a</span> = 5; 
+<span>$b </span>= 3; 
+<span>$c</span> =<span>$a</span>  + <span>$b</span>;
+            </code>
+                </pre>
+                </li>
         </ul>
       </section>  
     </main>
     <footer>
+        <ul class="footer">
+            <li>2022</li>
+            <li><a href="https://github.com/niki1332">niki1332</a></li>
+            <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"><img src="img/icon.png" alt="icon"></a></li>
+        </ul>
 
     </footer>
 </div>
